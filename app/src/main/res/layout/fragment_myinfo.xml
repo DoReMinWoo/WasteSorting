@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/myinfo_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/myinfo_img"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_action_name" />
+
+        <TextView
+            android:id="@+id/myinfo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myinfo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="김   민   우"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/myinfo_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/myinfo_name"
+            android:text="로그인"/>
+
+        <Button
+            android:id="@+id/myinfo_register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_below="@+id/myinfo_name"
+            android:layout_toRightOf="@+id/myinfo_login_btn"
+            android:text="회원가입"/>
+
+    </RelativeLayout>
+</LinearLayout>

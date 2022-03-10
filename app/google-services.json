@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148318476885",
+    "project_id": "wastesorting-ee2d1",
+    "storage_bucket": "wastesorting-ee2d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148318476885:android:3136b6c183fe97d2ce52dc",
+        "android_client_info": {
+          "package_name": "com.example.waste_sorting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148318476885-dr6ftkal93gsb5b19ojdhhr49hbpcgq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_EqrJcOzE1gJUsls9Kbw4sRa0Vv4Z8TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148318476885-dr6ftkal93gsb5b19ojdhhr49hbpcgq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
